@@ -1,4 +1,4 @@
-from fastai.vision.all import *
+from fastai.vision.all import load_learner
 import gradio as gr
 
 
