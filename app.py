@@ -13,6 +13,6 @@ categories = ('Dog','Cat')
 
 image = gr.inputs.Image(shape=(192,192))
 label = gr.outputs.Label()
-examples = ['cat.jpg', 'dog.jpg', 'dunno.jpg']
+examples = ['images/cat.jpg', 'images/dog.jpg', 'images/dunno.jpg']
 intf = gr.Interface(fn=classify_image, inputs=image, outputs=label, examples=examples)
 intf.launch(inline=False)
